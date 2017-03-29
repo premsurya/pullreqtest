@@ -5,5 +5,5 @@ files:
     destination: /tmp/codedeploy-deployment-staging-area/
 hooks:
   BeforeInstall:
-    - location: scripts/test
+    - location: scripts/test.sh
       timeout: 300
