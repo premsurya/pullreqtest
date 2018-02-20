@@ -17,6 +17,11 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
+      - echo CODEBUILD_INITIATOR
+      - echo CODEBUILD_RESOLVED_SOURCE_VERSION
+      - echo CODEBUILD_RESOLVED_SOURCE_REPO_URL
+      - echo CODEBUILD_SOURCE_VERSION
+      - echo CODEBUILD_SOURCE_DIR
   post_build:
     commands:
       - echo Entered the post_build phase...
